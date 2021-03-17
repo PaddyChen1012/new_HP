@@ -1,13 +1,16 @@
 .bg-b-50 {
     background-color: rgba(0,0,0,.5);
 }
-.bg-w-25 {
-    background-color: rgba(255,255,255,.25);
+.bg-b-25 {
+    background-color: rgba(0,0,0,.25);
 }
+.text-b-75 {color: rgba(0,0,0,.75);}
+.text-b-50 {color: rgba(0,0,0,.5);}
+.text-b-25 {color: rgba(0,0,0,.25);}
 .text-w-75 {color: rgba(255,255,255,.75);}
 .text-w-50 {color: rgba(255,255,255,.5);}
 .text-w-25 {color: rgba(255,255,255,.25);}
-body {background-color: rgba(0,0,0,1);}
+body {background-color: rgba(255,255,255,1);}
 footer{width:100%;margin-bottom: 1.5rem;}
 .totle {
     position: relative;
@@ -21,11 +24,11 @@ footer{width:100%;margin-bottom: 1.5rem;}
 }
 .wrap-1 {
     top: 0;
-    background: radial-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%), url(../images/wrap-1.jpg) no-repeat center/cover;
+    background: radial-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%), url(../images/wrap-1.jpg) no-repeat center/cover;
 }
 .wrap-2 {
     top: 58%;
-    background: radial-gradient(rgba(0,0,0,.25) 0%, rgba(0,0,0,1) 75%), url(../images/wrap-2.jpg) no-repeat center/cover;
+    background: radial-gradient(rgba(255,255,255,.25) 0%, rgba(255,255,255,1) 75%), url(../images/wrap-2.jpg) no-repeat center/cover;
 }
 [class^=page] {
     position: relative;
@@ -45,10 +48,10 @@ footer{width:100%;margin-bottom: 1.5rem;}
     width: 100%;
     padding-bottom: 62.65%;
 }
-.marketing { background: radial-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%), url(../images/marketing.jpg)no-repeat center/cover;}
-.seo { background: radial-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 75%), url(../images/seo.jpg)no-repeat center/cover;}
+.marketing { background: radial-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url(../images/marketing.jpg)no-repeat center/cover;}
+.seo { background: radial-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url(../images/seo.jpg)no-repeat center/cover;}
 .word {
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(0,0,0,.2);
 }
 .new-img {
     height: 120px;
