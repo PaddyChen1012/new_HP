@@ -11,7 +11,7 @@
 .text-w-50 {color: rgba(255,255,255,.5);}
 .text-w-25 {color: rgba(255,255,255,.25);}
 body {background-color: rgba(255,255,255,1);}
-footer{width:100%;margin-bottom: 1.5rem;}
+footer{position: relative;width:100%;margin-bottom: 1.5rem;background: linear-gradient(0deg, rgba(36, 226, 240, .5) 0%, rgba(255,255,255,0) 100%);}
 .totle {
     position: relative;
     overflow: hidden;
