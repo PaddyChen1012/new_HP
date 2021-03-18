@@ -86,7 +86,6 @@ footer{width:100%;margin-bottom: 1.5rem;}
     }
     [class^=message] .w-25,
     [class^=message] .w-75 {
-        width: 50% !important;
         font-size: .9rem;
     }
 }
