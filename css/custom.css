@@ -89,3 +89,39 @@ footer{position: relative;width:100%;margin-bottom: 1.5rem;background: linear-gr
         font-size: .9rem;
     }
 }
+[class^=service] {
+    position: relative;
+    padding-bottom: 120%;
+    background: url(https://picsum.photos/id/684/600/400);
+}
+[class^=service]:before,
+[class^=service]:after,
+[class^=service] div:before,
+[class^=service] div:after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 0;
+    height: 0;
+    transition: all .8s ease;
+}
+[class^=service]:hover:before,
+[class^=service]:hover div:before {
+    top: 10px;
+    width: 100%;
+    height:4px;
+}
+[class^=service]:hover:after,
+[class^=service]:hover div:after {
+    left: 10px;
+    width: 4px;
+    height: 100%;
+}
+[class^=service] div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(180deg);
+}
+
+

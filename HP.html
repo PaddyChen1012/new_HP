@@ -55,8 +55,34 @@
             </div>
         </div>
         <div class="page3">
+            <div class="container my-3">
+                <div class="row">
+                    <a href="" class="col-12 col-md-3 mb-3">
+                        <div class="service_1">
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="" class="col-12 col-md-3 mb-3">
+                        <div class="service_2">
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="" class="col-12 col-md-3 mb-3">
+                        <div class="service_3">
+                            <div></div>
+                        </div>
+                    </a>
+                    <a href="" class="col-12 col-md-3 mb-3">
+                        <div class="service_4">
+                            <div></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="page4">
             <div class="container px-3">
-                <div class="h1 border-bottom border-dark text-dark pt-5 pb-3 pl-3">NEWS</div>
+                <div class="h1 border-bottom border-dark text-dark py-3 pl-3">NEWS</div>
                 <ul class="text-dark p-0 pt-3">
                     <li class="new_box p-3 mb-3 d-flex bg-b-50">
                         <img src="https://picsum.photos/id/684/600/400" class="new-img">
@@ -95,12 +121,10 @@
                         <div class="message_top pb-1 border-bottom border-dark">
                             <span class="top_word d-flex align-items-end justify-content-end w-25">Tel：</span>
                             <span class="top_word d-flex align-items-end w-75">(04)XXXX-XXXX</span>
-                            <!-- <span class="top_word d-flex align-items-end w-25">Follow us：</span> -->
                         </div>
                         <div class="message_bottom pt-1">
                             <span class="bottom_word w-25 text-right">Address：</span>
                             <span class="bottom_word w-75">2nd Floor,Building B,SNPF Plaza,Savalalo,Apia,Samoa.</span>
-                            <!-- <span class="bottom_word w-25">Follow us:</span> -->
                         </div>
                     </div>
                 </div>
@@ -108,7 +132,7 @@
         </footer>
     </div>
     <script>
-        let wrap2Top = document.querySelector('.page1').scrollHeight + document.querySelector('.page2').scrollHeight;
+        let wrap2Top = document.querySelector('.page1').scrollHeight + document.querySelector('.page2').scrollHeight + document.querySelector('.page3').scrollHeight;
         console.log(typeof wrap2Top);
         window.onload = function onload(){  
             document.querySelector('.wrap-2').style.top=wrap2Top + 'px';
